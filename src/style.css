@@ -132,8 +132,8 @@ body {
     justify-content: center;
     align-items: center;
     position: absolute;
-    right: 10%;
-    bottom: 10%;
+    left: 800px;
+    bottom: 10px;
     width: 450px;
     height: 179px;
     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.08);
@@ -196,10 +196,13 @@ body {
 .Rectangle4 p {
     font-size: 16px;
     margin-left: 20px;
+    position: relative;
+    
 }
 
 .Rectangle4 p:nth-child(1) {
     margin-top: 20px;
+
 }
 
 .Rectangle4 p.price-details {
@@ -210,8 +213,9 @@ body {
 
 .Rectangle5 {
 
-    position: absolute;
+    position:relative;
     bottom: 10%;
+    left:200px;
     right: 5%;
     width: 184px;
     height: 42px;
